@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Rxm_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#EB550C" >
+    <TextView
+        android:id="@+id/title"
+        android:padding="14dp"
+        android:background="#EB550C"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What you like to choose?"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/title"
+        android:layout_marginTop="20dp" >
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:weightSum="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/taxi"
+                android:layout_weight="0.5"
+                android:background="@drawable/car"
+                android:layout_width="250dp"
+                android:layout_height="250dp" />
+            <Button
+                android:id="@+id/hostel"
+                android:background="@drawable/hostel"
+                android:layout_weight="0.5"
+                android:layout_width="250dp"
+                android:layout_height="250dp" />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_below="@id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:weightSum="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/places"
+                android:layout_weight="0.5"
+                android:background="@drawable/trck"
+                android:layout_width="250dp"
+                android:layout_height="250dp" />
+            <Button
+                android:id="@+id/marts"
+                android:layout_weight="0.5"
+                android:background="@drawable/mart"
+                android:layout_width="250dp"
+                android:layout_height="250dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

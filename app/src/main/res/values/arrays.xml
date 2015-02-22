@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="self_driver">
+        <item>Petrol Pump</item>
+        <item>Automobile Shops </item>
+    </string-array>
+    <string-array name="traveller">
+        <item>Hire a Taxi</item>
+        <item>Hostels</item>
+        <item>Awesome Places</item>
+        <item>Marts</item>
+    </string-array>
+</resources>
